@@ -1,0 +1,204 @@
+[
+    {
+      "id": 1,
+      "name": "La Vie Est Belle",
+      "brand": "Lancôme",
+      "category": { "name": "Nước hoa nữ", "type": "nữ" },
+      "volumes": [
+        { "volume": "30ml", "price": 1800000 },
+        { "volume": "50ml", "price": 2500000 },
+        { "volume": "100ml", "price": 3200000 }
+      ],
+      "images": [
+        "https://example.com/images/lavie1.jpg",
+        "https://example.com/images/lavie2.jpg",
+        "https://example.com/images/lavie3.jpg"
+      ],
+      "country": "Pháp",
+      "top_notes": "Quả lý chua đen, Lê",
+      "middle_notes": "Hoa diên vĩ, Hoa nhài, Hoa cam",
+      "base_notes": "Hương Vani, Đậu Tonka, Kẹo nhân hạt, Hoắc hương",
+      "features": "Hương thơm ngọt ngào, nữ tính, phù hợp mùa thu đông, ban ngày lẫn buổi tối"
+    },
+    {
+      "id": 2,
+      "name": "Bleu de Chanel",
+      "brand": "Chanel",
+      "category": { "name": "Nước hoa unisex", "type": "unisex" },
+      "volumes": [
+        { "volume": "50ml", "price": 2700000 },
+        { "volume": "100ml", "price": 3500000 }
+      ],
+      "images": [
+        "https://example.com/images/bleu1.jpg",
+        "https://example.com/images/bleu2.jpg",
+        "https://example.com/images/bleu3.jpg"
+      ],
+      "country": "Pháp",
+      "top_notes": "Chanh, Bạc hà, Tiêu hồng",
+      "middle_notes": "Gừng, Nhục đậu khấu, Hoa nhài",
+      "base_notes": "Gỗ đàn hương, Hổ phách, Tuyết tùng",
+      "features": "Nam tính, hiện đại, phù hợp đi làm, dạo phố"
+    },
+    {
+      "id": 3,
+      "name": "Dior Sauvage",
+      "brand": "Dior",
+      "category": { "name": "Nước hoa unisex", "type": "unisex" },
+      "volumes": [
+        { "volume": "60ml", "price": 2200000 },
+        { "volume": "100ml", "price": 3000000 }
+      ],
+      "images": [
+        "https://example.com/images/sauvage1.jpg",
+        "https://example.com/images/sauvage2.jpg",
+        "https://example.com/images/sauvage3.jpg"
+      ],
+      "country": "Pháp",
+      "top_notes": "Cam bergamot, Tiêu",
+      "middle_notes": "Hoa oải hương, Cây phong lữ",
+      "base_notes": "Ambroxan, Gỗ tuyết tùng",
+      "features": "Tươi mát, mạnh mẽ, bám mùi lâu"
+    },
+    {
+      "id": 4,
+      "name": "Good Girl",
+      "brand": "Carolina Herrera",
+      "category": { "name": "Nước hoa nữ", "type": "nữ" },
+      "volumes": [
+        { "volume": "30ml", "price": 1900000 },
+        { "volume": "80ml", "price": 3200000 }
+      ],
+      "images": [
+        "https://example.com/images/goodgirl1.jpg",
+        "https://example.com/images/goodgirl2.jpg",
+        "https://example.com/images/goodgirl3.jpg"
+      ],
+      "country": "Mỹ",
+      "top_notes": "Hạnh nhân, Cà phê",
+      "middle_notes": "Hoa nhài, Hoa huệ",
+      "base_notes": "Vani, Gỗ đàn hương, Ca cao",
+      "features": "Quyến rũ, nổi bật trong các buổi tiệc"
+    },
+    {
+      "id": 5,
+      "name": "Light Blue",
+      "brand": "Dolce & Gabbana",
+      "category": { "name": "Nước hoa nữ", "type": "nữ" },
+      "volumes": [
+        { "volume": "25ml", "price": 1500000 },
+        { "volume": "75ml", "price": 2600000 }
+      ],
+      "images": [
+        "https://example.com/images/lightblue1.jpg",
+        "https://example.com/images/lightblue2.jpg",
+        "https://example.com/images/lightblue3.jpg"
+      ],
+      "country": "Ý",
+      "top_notes": "Chanh, Táo xanh",
+      "middle_notes": "Hoa nhài, Tre",
+      "base_notes": "Gỗ tuyết tùng, Hổ phách, Xạ hương",
+      "features": "Tươi mát, năng động, phù hợp mùa hè"
+    },
+    {
+      "id": 6,
+      "name": "Tom Ford Black Orchid",
+      "brand": "Tom Ford",
+      "category": { "name": "Nước hoa unisex", "type": "unisex" },
+      "volumes": [
+        { "volume": "50ml", "price": 3100000 },
+        { "volume": "100ml", "price": 4200000 }
+      ],
+      "images": [
+        "https://example.com/images/blackorchid1.jpg",
+        "https://example.com/images/blackorchid2.jpg",
+        "https://example.com/images/blackorchid3.jpg"
+      ],
+      "country": "Mỹ",
+      "top_notes": "Nấm cục đen, Cam bergamot",
+      "middle_notes": "Hoa phong lan, Trái cây đen",
+      "base_notes": "Hoắc hương, Sô cô la đen, Gỗ đàn hương",
+      "features": "Cá tính, huyền bí, sang trọng"
+    },
+    {
+      "id": 7,
+      "name": "My Burberry",
+      "brand": "Burberry",
+      "category": { "name": "Nước hoa nữ", "type": "nữ" },
+      "volumes": [
+        { "volume": "30ml", "price": 1700000 },
+        { "volume": "90ml", "price": 3100000 }
+      ],
+      "images": [
+        "https://example.com/images/myburberry1.jpg",
+        "https://example.com/images/myburberry2.jpg",
+        "https://example.com/images/myburberry3.jpg"
+      ],
+      "country": "Anh",
+      "top_notes": "Đậu Hà Lan, Cam bergamot",
+      "middle_notes": "Hoa phong lữ, Hoa hồng",
+      "base_notes": "Hoắc hương, Xạ hương",
+      "features": "Tinh tế, thanh lịch, đậm chất Anh quốc"
+    },
+    {
+      "id": 8,
+      "name": "Versace Eros",
+      "brand": "Versace",
+      "category": { "name": "Nước hoa unisex", "type": "unisex" },
+      "volumes": [
+        { "volume": "50ml", "price": 2500000 },
+        { "volume": "100ml", "price": 3400000 }
+      ],
+      "images": [
+        "https://example.com/images/eros1.jpg",
+        "https://example.com/images/eros2.jpg",
+        "https://example.com/images/eros3.jpg"
+      ],
+      "country": "Ý",
+      "top_notes": "Bạc hà, Táo xanh",
+      "middle_notes": "Đậu tonka, Ambroxan",
+      "base_notes": "Vani, Cỏ hương bài",
+      "features": "Mạnh mẽ, quyến rũ, đậm chất nam tính"
+    },
+    {
+      "id": 9,
+      "name": "YSL Libre",
+      "brand": "Yves Saint Laurent",
+      "category": { "name": "Nước hoa nữ", "type": "nữ" },
+      "volumes": [
+        { "volume": "30ml", "price": 2100000 },
+        { "volume": "90ml", "price": 3500000 }
+      ],
+      "images": [
+        "https://example.com/images/libre1.jpg",
+        "https://example.com/images/libre2.jpg",
+        "https://example.com/images/libre3.jpg"
+      ],
+      "country": "Pháp",
+      "top_notes": "Cam bergamot, Hoa oải hương",
+      "middle_notes": "Hoa cam, Hoa nhài",
+      "base_notes": "Vani, Gỗ tuyết tùng",
+      "features": "Phóng khoáng, tự tin, thời thượng"
+    },
+    {
+      "id": 10,
+      "name": "Acqua Di Gio",
+      "brand": "Giorgio Armani",
+      "category": { "name": "Nước hoa unisex", "type": "unisex" },
+      "volumes": [
+        { "volume": "50ml", "price": 2400000 },
+        { "volume": "100ml", "price": 3300000 }
+      ],
+      "images": [
+        "https://example.com/images/acqua1.jpg",
+        "https://example.com/images/acqua2.jpg",
+        "https://example.com/images/acqua3.jpg"
+      ],
+      "country": "Ý",
+      "top_notes": "Cam quýt, Cam bergamot",
+      "middle_notes": "Hoa nhài, Rau mùi",
+      "base_notes": "Hổ phách, Xạ hương, Tuyết tùng",
+      "features": "Thanh mát, sạch sẽ, dễ dùng hàng ngày"
+    }
+  ]
+  
