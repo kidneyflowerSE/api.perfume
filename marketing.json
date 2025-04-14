@@ -1,0 +1,410 @@
+{
+  "campaigns": [
+    {
+      "id": 1,
+      "name": "Khuyến mãi mùa hè",
+      "product": "Nước hoa Body Essentials",
+      "status": "active",
+      "startDate": "01/04/2025",
+      "endDate": "30/06/2025",
+      "budget": "45,000,000",
+      "spent": "12,350,000",
+      "reach": 78500,
+      "impressions": 256700,
+      "clicks": 12850,
+      "conversions": 745,
+      "roi": 2.8,
+      "performance": "high"
+    },
+    {
+      "id": 2,
+      "name": "Giảm giá cuối tuần",
+      "product": "Bộ sản phẩm chăm sóc da",
+      "status": "active",
+      "startDate": "10/04/2025",
+      "endDate": "12/05/2025",
+      "budget": "15,000,000",
+      "spent": "7,820,000",
+      "reach": 45300,
+      "impressions": 127600,
+      "clicks": 8430,
+      "conversions": 412,
+      "roi": 2.1,
+      "performance": "medium"
+    },
+    {
+      "id": 3,
+      "name": "Ra mắt sản phẩm mới",
+      "product": "Serum dưỡng tóc Silk Therapy",
+      "status": "planned",
+      "startDate": "01/05/2025",
+      "endDate": "31/05/2025",
+      "budget": "85,000,000",
+      "spent": "0",
+      "reach": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "roi": 0,
+      "performance": "pending"
+    },
+    {
+      "id": 4,
+      "name": "Ngày lễ quốc tế phụ nữ",
+      "product": "Bộ quà tặng cao cấp",
+      "status": "completed",
+      "startDate": "01/03/2025",
+      "endDate": "08/03/2025",
+      "budget": "35,000,000",
+      "spent": "34,950,000",
+      "reach": 92400,
+      "impressions": 287500,
+      "clicks": 15720,
+      "conversions": 1230,
+      "roi": 3.5,
+      "performance": "high"
+    },
+    {
+      "id": 5,
+      "name": "Khuyến mãi tháng 4",
+      "product": "Bộ sưu tập mùa xuân",
+      "status": "active",
+      "startDate": "01/04/2025",
+      "endDate": "30/04/2025",
+      "budget": "25,000,000",
+      "spent": "12,500,000",
+      "reach": 35600,
+      "impressions": 98700,
+      "clicks": 5430,
+      "conversions": 276,
+      "roi": 1.6,
+      "performance": "low"
+    },
+    {
+      "id": 6,
+      "name": "Khuyến mãi sinh viên",
+      "product": "Dòng sản phẩm cơ bản",
+      "status": "paused",
+      "startDate": "15/03/2025",
+      "endDate": "15/05/2025",
+      "budget": "18,000,000",
+      "spent": "9,200,000",
+      "reach": 42300,
+      "impressions": 118500,
+      "clicks": 5870,
+      "conversions": 320,
+      "roi": 1.8,
+      "performance": "medium"
+    },
+    {
+      "id": 7,
+      "name": "Chiến dịch lễ hội mùa xuân",
+      "product": "Bộ sản phẩm dưỡng ẩm",
+      "status": "active",
+      "startDate": "20/03/2025",
+      "endDate": "20/04/2025",
+      "budget": "30,000,000",
+      "spent": "22,450,000",
+      "reach": 67200,
+      "impressions": 189300,
+      "clicks": 9470,
+      "conversions": 560,
+      "roi": 2.4,
+      "performance": "medium"
+    },
+    {
+      "id": 8,
+      "name": "Khuyến mãi Black Friday",
+      "product": "Bộ sưu tập mùa đông",
+      "status": "planned",
+      "startDate": "25/11/2025",
+      "endDate": "30/11/2025",
+      "budget": "60,000,000",
+      "spent": "0",
+      "reach": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "conversions": 0,
+      "roi": 0,
+      "performance": "pending"
+    },
+    {
+      "id": 9,
+      "name": "Chiến dịch Tết Nguyên Đán",
+      "product": "Bộ quà tặng Tết",
+      "status": "completed",
+      "startDate": "01/01/2025",
+      "endDate": "15/02/2025",
+      "budget": "50,000,000",
+      "spent": "49,800,000",
+      "reach": 105600,
+      "impressions": 325400,
+      "clicks": 18200,
+      "conversions": 1500,
+      "roi": 3.8,
+      "performance": "high"
+    },
+    {
+      "id": 10,
+      "name": "Khuyến mãi Back-to-School",
+      "product": "Dòng sản phẩm dành cho teen",
+      "status": "paused",
+      "startDate": "01/08/2025",
+      "endDate": "30/09/2025",
+      "budget": "20,000,000",
+      "spent": "10,500,000",
+      "reach": 38700,
+      "impressions": 109200,
+      "clicks": 5200,
+      "conversions": 280,
+      "roi": 1.9,
+      "performance": "medium"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nước hoa Body Essentials",
+      "category": "Nước hoa",
+      "launchDate": "10/01/2025",
+      "sales": 3850,
+      "revenue": "962,500,000",
+      "marketingSpend": "145,000,000",
+      "socialMentions": 4270,
+      "rating": 4.7,
+      "trend": "up"
+    },
+    {
+      "id": 2,
+      "name": "Bộ sản phẩm chăm sóc da",
+      "category": "Chăm sóc da",
+      "launchDate": "05/02/2025",
+      "sales": 2750,
+      "revenue": "687,500,000",
+      "marketingSpend": "112,000,000",
+      "socialMentions": 3150,
+      "rating": 4.5,
+      "trend": "up"
+    },
+    {
+      "id": 3,
+      "name": "Serum dưỡng tóc Silk Therapy",
+      "category": "Chăm sóc tóc",
+      "launchDate": "20/04/2025",
+      "sales": 0,
+      "revenue": "0",
+      "marketingSpend": "85,000,000",
+      "socialMentions": 1850,
+      "rating": 0,
+      "trend": "neutral"
+    },
+    {
+      "id": 4,
+      "name": "Bộ quà tặng cao cấp",
+      "category": "Quà tặng",
+      "launchDate": "15/02/2025",
+      "sales": 1920,
+      "revenue": "768,000,000",
+      "marketingSpend": "95,000,000",
+      "socialMentions": 2870,
+      "rating": 4.8,
+      "trend": "up"
+    },
+    {
+      "id": 5,
+      "name": "Bộ sưu tập mùa xuân",
+      "category": "Bộ sưu tập",
+      "launchDate": "01/03/2025",
+      "sales": 1320,
+      "revenue": "396,000,000",
+      "marketingSpend": "78,000,000",
+      "socialMentions": 1950,
+      "rating": 4.2,
+      "trend": "down"
+    },
+    {
+      "id": 6,
+      "name": "Dòng sản phẩm cơ bản",
+      "category": "Chăm sóc da",
+      "launchDate": "10/12/2024",
+      "sales": 4350,
+      "revenue": "652,500,000",
+      "marketingSpend": "98,000,000",
+      "socialMentions": 2150,
+      "rating": 4.3,
+      "trend": "neutral"
+    },
+    {
+      "id": 7,
+      "name": "Bộ sản phẩm dưỡng ẩm",
+      "category": "Chăm sóc da",
+      "launchDate": "01/03/2025",
+      "sales": 2100,
+      "revenue": "525,000,000",
+      "marketingSpend": "90,000,000",
+      "socialMentions": 2600,
+      "rating": 4.6,
+      "trend": "up"
+    },
+    {
+      "id": 8,
+      "name": "Bộ sưu tập mùa đông",
+      "category": "Bộ sưu tập",
+      "launchDate": "01/11/2025",
+      "sales": 0,
+      "revenue": "0",
+      "marketingSpend": "60,000,000",
+      "socialMentions": 1200,
+      "rating": 0,
+      "trend": "neutral"
+    },
+    {
+      "id": 9,
+      "name": "Bộ quà tặng Tết",
+      "category": "Quà tặng",
+      "launchDate": "01/01/2025",
+      "sales": 3200,
+      "revenue": "960,000,000",
+      "marketingSpend": "120,000,000",
+      "socialMentions": 3800,
+      "rating": 4.9,
+      "trend": "up"
+    },
+    {
+      "id": 10,
+      "name": "Dòng sản phẩm dành cho teen",
+      "category": "Chăm sóc da",
+      "launchDate": "01/08/2025",
+      "sales": 1500,
+      "revenue": "300,000,000",
+      "marketingSpend": "50,000,000",
+      "socialMentions": 1750,
+      "rating": 4.4,
+      "trend": "neutral"
+    }
+  ],
+  "socialMetrics": {
+    "facebook": {
+      "followers": 38500,
+      "engagement": 5.2,
+      "growth": 3.8,
+      "posts": 24,
+      "shares": 3750,
+      "clicks": 15200
+    },
+    "instagram": {
+      "followers": 52700,
+      "engagement": 7.5,
+      "growth": 5.2,
+      "posts": 32,
+      "likes": 48200,
+      "comments": 7850
+    },
+    "twitter": {
+      "followers": 12300,
+      "engagement": 2.8,
+      "growth": 1.5,
+      "tweets": 45,
+      "retweets": 1280,
+      "mentions": 950
+    },
+    "youtube": {
+      "followers": 18200,
+      "engagement": 4.1,
+      "growth": 2.7,
+      "videos": 15,
+      "views": 125000,
+      "likes": 6200
+    },
+    "tiktok": {
+      "followers": 25000,
+      "engagement": 8.3,
+      "growth": 6.5,
+      "videos": 40,
+      "likes": 75000,
+      "shares": 3200
+    }
+  },
+  "contentCalendar": [
+    {
+      "id": 1,
+      "title": "Bài đăng về sản phẩm mới",
+      "platform": "instagram",
+      "date": "13/04/2025",
+      "status": "scheduled",
+      "assignee": "Nguyễn Thị Hương"
+    },
+    {
+      "id": 2,
+      "title": "Video hướng dẫn sử dụng serum",
+      "platform": "facebook",
+      "date": "15/04/2025",
+      "status": "draft",
+      "assignee": "Trần Văn Minh"
+    },
+    {
+      "id": 3,
+      "title": "Bài viết blog về thành phần",
+      "platform": "website",
+      "date": "18/04/2025",
+      "status": "scheduled",
+      "assignee": "Phạm Thu Hà"
+    },
+    {
+      "id": 4,
+      "title": "Phỏng vấn chuyên gia",
+      "platform": "youtube",
+      "date": "20/04/2025",
+      "status": "planned",
+      "assignee": "Lê Quang Đạt"
+    },
+    {
+      "id": 5,
+      "title": "Cuộc thi hashtag trên Twitter",
+      "platform": "twitter",
+      "date": "23/04/2025",
+      "status": "planned",
+      "assignee": "Nguyễn Thị Hương"
+    },
+    {
+      "id": 6,
+      "title": "Bài đăng quảng bá Tết",
+      "platform": "facebook",
+      "date": "10/01/2025",
+      "status": "published",
+      "assignee": "Phạm Thu Hà"
+    },
+    {
+      "id": 7,
+      "title": "Video giới thiệu bộ sưu tập mùa đông",
+      "platform": "tiktok",
+      "date": "01/11/2025",
+      "status": "planned",
+      "assignee": "Trần Văn Minh"
+    },
+    {
+      "id": 8,
+      "title": "Bài đăng về chăm sóc da mùa hè",
+      "platform": "instagram",
+      "date": "05/06/2025",
+      "status": "planned",
+      "assignee": "Lê Quang Đạt"
+    },
+    {
+      "id": 9,
+      "title": "Livestream ra mắt sản phẩm",
+      "platform": "youtube",
+      "date": "25/04/2025",
+      "status": "scheduled",
+      "assignee": "Nguyễn Thị Hương"
+    },
+    {
+      "id": 10,
+      "title": "Bài viết về xu hướng làm đẹp",
+      "platform": "website",
+      "date": "30/04/2025",
+      "status": "draft",
+      "assignee": "Phạm Thu Hà"
+    }
+  ]
+}
