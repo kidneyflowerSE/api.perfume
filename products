@@ -1,0 +1,606 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Nước hoa XYZ",
+      "sku": "NH-XYZ-50",
+      "description": "Hương thơm quyến rũ với notes hoa hồng, vanilla và xạ hương. Lưu hương lâu, phù hợp cho buổi tối.",
+      "size": "50ml",
+      "price": "1,250,000",
+      "cost": "950,000",
+      "stock": 15,
+      "category": "Nước hoa nữ",
+      "subcategory": "Hương hoa cỏ",
+      "status": "active",
+      "lastUpdated": "10/04/2025",
+      "createdAt": "15/01/2025",
+      "images": [
+        "/images/products/nuoc-hoa-xyz-1.jpg",
+        "/images/products/nuoc-hoa-xyz-2.jpg"
+      ],
+      "brand": "Chanel",
+      "fragrance": {
+        "topNotes": ["Hoa hồng", "Cam Bergamot"],
+        "middleNotes": ["Hoa nhài", "Violet"],
+        "baseNotes": ["Xạ hương", "Vanilla", "Gỗ đàn hương"]
+      },
+      "concentration": "Eau de Parfum",
+      "longevity": "8-10 giờ",
+      "seasonal": ["Thu", "Đông"],
+      "featured": true,
+      "rating": 4.8,
+      "reviews": 124,
+      "tags": ["Sang trọng", "Quyến rũ", "Dạ tiệc"]
+    },
+    {
+      "id": 2,
+      "name": "Nước hoa ABC",
+      "sku": "NH-ABC-100",
+      "description": "Hương thơm mạnh mẽ, nam tính với notes gỗ và gia vị. Phù hợp cho người đàn ông hiện đại.",
+      "size": "100ml",
+      "price": "2,150,000",
+      "cost": "1,720,000",
+      "stock": 5,
+      "category": "Nước hoa nam",
+      "subcategory": "Hương gỗ thơm",
+      "status": "low_stock",
+      "lastUpdated": "08/04/2025",
+      "createdAt": "20/12/2024",
+      "images": [
+        "/images/products/nuoc-hoa-abc-1.jpg",
+        "/images/products/nuoc-hoa-abc-2.jpg"
+      ],
+      "brand": "Dior",
+      "fragrance": {
+        "topNotes": ["Bạch đậu khấu", "Quả bưởi"],
+        "middleNotes": ["Gỗ tuyết tùng", "Hoa oải hương"],
+        "baseNotes": ["Da thuộc", "Hổ phách", "Hoắc hương"]
+      },
+      "concentration": "Eau de Toilette",
+      "longevity": "6-8 giờ",
+      "seasonal": ["Xuân", "Thu"],
+      "featured": false,
+      "rating": 4.5,
+      "reviews": 87,
+      "tags": ["Phong cách", "Hiện đại", "Văn phòng"]
+    },
+    {
+      "id": 3,
+      "name": "Nước hoa Premium",
+      "sku": "NH-PREM-75",
+      "description": "Hương thơm sang trọng với notes hoa lan, hổ phách và gỗ đàn hương. Tạo ấn tượng khó quên.",
+      "size": "75ml",
+      "price": "3,500,000",
+      "cost": "2,800,000",
+      "stock": 8,
+      "category": "Nước hoa nữ",
+      "subcategory": "Hương hoa cỏ phương đông",
+      "status": "active",
+      "lastUpdated": "11/04/2025",
+      "createdAt": "05/01/2025",
+      "images": [
+        "/images/products/nuoc-hoa-premium-1.jpg",
+        "/images/products/nuoc-hoa-premium-2.jpg",
+        "/images/products/nuoc-hoa-premium-3.jpg"
+      ],
+      "brand": "Gucci",
+      "fragrance": {
+        "topNotes": ["Quả lý chua đen", "Cam Bergamot"],
+        "middleNotes": ["Hoa lan", "Hoa mẫu đơn"],
+        "baseNotes": ["Hổ phách", "Gỗ đàn hương", "Xạ hương"]
+      },
+      "concentration": "Parfum",
+      "longevity": "10-12 giờ",
+      "seasonal": ["Tất cả mùa"],
+      "featured": true,
+      "rating": 4.9,
+      "reviews": 156,
+      "tags": ["Sang trọng", "Độc đáo", "Quyến rũ"]
+    },
+    {
+      "id": 4,
+      "name": "Nước hoa Classic",
+      "sku": "NH-CLAS-30",
+      "description": "Hương thơm nhẹ nhàng, thích hợp cho cả nam và nữ. Notes cam quýt tươi mát và hoa oải hương.",
+      "size": "30ml",
+      "price": "950,000",
+      "cost": "760,000",
+      "stock": 0,
+      "category": "Nước hoa unisex",
+      "subcategory": "Hương cam quýt",
+      "status": "out_of_stock",
+      "lastUpdated": "05/04/2025",
+      "createdAt": "10/11/2024",
+      "images": [
+        "/images/products/nuoc-hoa-classic-1.jpg",
+        "/images/products/nuoc-hoa-classic-2.jpg"
+      ],
+      "brand": "Calvin Klein",
+      "fragrance": {
+        "topNotes": ["Cam Bergamot", "Quả chanh vàng"],
+        "middleNotes": ["Hoa oải hương", "Hoa cam"],
+        "baseNotes": ["Gỗ tuyết tùng", "Xạ hương"]
+      },
+      "concentration": "Eau de Cologne",
+      "longevity": "4-6 giờ",
+      "seasonal": ["Xuân", "Hè"],
+      "featured": false,
+      "rating": 4.3,
+      "reviews": 65,
+      "tags": ["Tươi mát", "Năng động", "Hàng ngày"]
+    },
+    {
+      "id": 5,
+      "name": "Nước hoa Elegance",
+      "sku": "NH-ELEG-50",
+      "description": "Hương thơm thanh lịch với notes hoa nhài, hoa hồng và gỗ đàn hương. Phù hợp cho phụ nữ thành đạt.",
+      "size": "50ml",
+      "price": "1,850,000",
+      "cost": "1,480,000",
+      "stock": 12,
+      "category": "Nước hoa nữ",
+      "subcategory": "Hương hoa cỏ trái cây",
+      "status": "active",
+      "lastUpdated": "09/04/2025",
+      "createdAt": "23/01/2025",
+      "images": [
+        "/images/products/nuoc-hoa-elegance-1.jpg",
+        "/images/products/nuoc-hoa-elegance-2.jpg"
+      ],
+      "brand": "Lancome",
+      "fragrance": {
+        "topNotes": ["Quả lê", "Quả đào"],
+        "middleNotes": ["Hoa nhài", "Hoa hồng Bulgaria"],
+        "baseNotes": ["Gỗ đàn hương", "Hoắc hương", "Vanilla"]
+      },
+      "concentration": "Eau de Parfum",
+      "longevity": "8-10 giờ",
+      "seasonal": ["Xuân", "Hè", "Thu"],
+      "featured": true,
+      "rating": 4.7,
+      "reviews": 93,
+      "tags": ["Thanh lịch", "Nữ tính", "Văn phòng"]
+    },
+    {
+      "id": 6,
+      "name": "Nước hoa Luxury",
+      "sku": "NH-LUX-100",
+      "description": "Hương thơm xa xỉ với notes da thuộc, gia vị và gỗ quý. Đẳng cấp dành cho quý ông.",
+      "size": "100ml",
+      "price": "4,250,000",
+      "cost": "3,400,000",
+      "stock": 3,
+      "category": "Nước hoa nam",
+      "subcategory": "Hương gỗ cay nồng",
+      "status": "low_stock",
+      "lastUpdated": "12/04/2025",
+      "createdAt": "15/02/2025",
+      "images": [
+        "/images/products/nuoc-hoa-luxury-1.jpg",
+        "/images/products/nuoc-hoa-luxury-2.jpg",
+        "/images/products/nuoc-hoa-luxury-3.jpg"
+      ],
+      "brand": "Tom Ford",
+      "fragrance": {
+        "topNotes": ["Tiêu đen", "Quế"],
+        "middleNotes": ["Da thuộc", "Trầm hương"],
+        "baseNotes": ["Hổ phách", "Gỗ đàn hương", "Vanilla"]
+      },
+      "concentration": "Parfum",
+      "longevity": "10-12 giờ",
+      "seasonal": ["Thu", "Đông"],
+      "featured": true,
+      "rating": 4.9,
+      "reviews": 142,
+      "tags": ["Sang trọng", "Đẳng cấp", "Dạ tiệc"]
+    },
+    {
+      "id": 7,
+      "name": "Nước hoa Ocean Breeze",
+      "sku": "NH-OCB-75",
+      "description": "Hương thơm mát mẻ với notes biển, muối và gỗ trắng. Cảm giác tươi mới suốt ngày dài.",
+      "size": "75ml",
+      "price": "1,750,000",
+      "cost": "1,400,000",
+      "stock": 20,
+      "category": "Nước hoa nam",
+      "subcategory": "Hương thơm biển",
+      "status": "active",
+      "lastUpdated": "14/04/2025",
+      "createdAt": "05/03/2025",
+      "images": [
+        "/images/products/nuoc-hoa-ocean-breeze-1.jpg",
+        "/images/products/nuoc-hoa-ocean-breeze-2.jpg"
+      ],
+      "brand": "Versace",
+      "fragrance": {
+        "topNotes": ["Bergamot", "Biển", "Muối"],
+        "middleNotes": ["Xô thơm", "Phong lữ"],
+        "baseNotes": ["Gỗ trắng", "Rêu sồi", "Hương Ambroxan"]
+      },
+      "concentration": "Eau de Toilette",
+      "longevity": "6-8 giờ",
+      "seasonal": ["Xuân", "Hè"],
+      "featured": false,
+      "rating": 4.6,
+      "reviews": 78,
+      "tags": ["Tươi mát", "Năng động", "Thể thao"]
+    },
+    {
+      "id": 8,
+      "name": "Nước hoa Velvet Rose",
+      "sku": "NH-VLR-50",
+      "description": "Hương thơm nữ tính với notes hoa hồng nhung, mẫu đơn và xạ hương. Lãng mạn và quyến rũ.",
+      "size": "50ml",
+      "price": "2,850,000",
+      "cost": "2,280,000",
+      "stock": 7,
+      "category": "Nước hoa nữ",
+      "subcategory": "Hương hoa hồng",
+      "status": "low_stock",
+      "lastUpdated": "13/04/2025",
+      "createdAt": "10/02/2025",
+      "images": [
+        "/images/products/nuoc-hoa-velvet-rose-1.jpg",
+        "/images/products/nuoc-hoa-velvet-rose-2.jpg"
+      ],
+      "brand": "Dolce & Gabbana",
+      "fragrance": {
+        "topNotes": ["Chanh", "Lá xanh"],
+        "middleNotes": ["Hoa hồng nhung", "Hoa mẫu đơn", "Hoa nhài"],
+        "baseNotes": ["Xạ hương", "Vanilla", "Hổ phách"]
+      },
+      "concentration": "Eau de Parfum",
+      "longevity": "8-10 giờ",
+      "seasonal": ["Xuân", "Thu"],
+      "featured": true,
+      "rating": 4.7,
+      "reviews": 105,
+      "tags": ["Lãng mạn", "Quyến rũ", "Sang trọng"]
+    },
+    {
+      "id": 9,
+      "name": "Nước hoa Urban Chic",
+      "sku": "NH-URC-30",
+      "description": "Hương thơm hiện đại, phù hợp cho cả nam và nữ. Notes gia vị và gỗ tạo nên sự độc đáo.",
+      "size": "30ml",
+      "price": "1,450,000",
+      "cost": "1,160,000",
+      "stock": 0,
+      "category": "Nước hoa unisex",
+      "subcategory": "Hương gỗ cay nồng",
+      "status": "out_of_stock",
+      "lastUpdated": "07/04/2025",
+      "createdAt": "25/01/2025",
+      "images": [
+        "/images/products/nuoc-hoa-urban-chic-1.jpg",
+        "/images/products/nuoc-hoa-urban-chic-2.jpg"
+      ],
+      "brand": "Jo Malone",
+      "fragrance": {
+        "topNotes": ["Tiêu hồng", "Bạch đậu khấu"],
+        "middleNotes": ["Nhựa Olibanum", "Gỗ tuyết tùng"],
+        "baseNotes": ["Da thuộc", "Cỏ vetiver", "Hương Iso E Super"]
+      },
+      "concentration": "Cologne Intense",
+      "longevity": "6-8 giờ",
+      "seasonal": ["Tất cả mùa"],
+      "featured": false,
+      "rating": 4.4,
+      "reviews": 56,
+      "tags": ["Hiện đại", "Độc đáo", "Phong cách"]
+    },
+    {
+      "id": 10,
+      "name": "Nước hoa Golden Amber",
+      "sku": "NH-GDA-100",
+      "description": "Hương thơm ấm áp với notes hổ phách, benzoin và vanilla. Tạo cảm giác sang trọng, quyến rũ.",
+      "size": "100ml",
+      "price": "3,950,000",
+      "cost": "3,160,000",
+      "stock": 4,
+      "category": "Nước hoa nữ",
+      "subcategory": "Hương phương đông",
+      "status": "low_stock",
+      "lastUpdated": "12/04/2025",
+      "createdAt": "18/02/2025",
+      "images": [
+        "/images/products/nuoc-hoa-golden-amber-1.jpg",
+        "/images/products/nuoc-hoa-golden-amber-2.jpg",
+        "/images/products/nuoc-hoa-golden-amber-3.jpg"
+      ],
+      "brand": "Yves Saint Laurent",
+      "fragrance": {
+        "topNotes": ["Cam Bergamot", "Quả mâm xôi"],
+        "middleNotes": ["Hoa hồng Thổ Nhĩ Kỳ", "Hổ phách"],
+        "baseNotes": ["Benzoin", "Vanilla", "Gỗ đàn hương"]
+      },
+      "concentration": "Parfum",
+      "longevity": "10-12 giờ",
+      "seasonal": ["Thu", "Đông"],
+      "featured": true,
+      "rating": 4.8,
+      "reviews": 98,
+      "tags": ["Sang trọng", "Quyến rũ", "Ấm áp"]
+    },
+    {
+      "id": 11,
+      "name": "Nước hoa Fresh Citrus",
+      "sku": "NH-FRC-75",
+      "description": "Hương thơm tươi mát với notes cam quýt và thảo mộc. Thích hợp cho mùa hè năng động.",
+      "size": "75ml",
+      "price": "1,650,000",
+      "cost": "1,320,000",
+      "stock": 18,
+      "category": "Nước hoa unisex",
+      "subcategory": "Hương cam quýt thơm ngát",
+      "status": "active",
+      "lastUpdated": "11/04/2025",
+      "createdAt": "15/03/2025",
+      "images": [
+        "/images/products/nuoc-hoa-fresh-citrus-1.jpg",
+        "/images/products/nuoc-hoa-fresh-citrus-2.jpg"
+      ],
+      "brand": "Acqua di Parma",
+      "fragrance": {
+        "topNotes": ["Cam Bergamot", "Quýt", "Chanh"],
+        "middleNotes": ["Hương thảo", "Xô thơm", "Hoa cam"],
+        "baseNotes": ["Cỏ vetiver", "Xạ hương", "Phong lữ"]
+      },
+      "concentration": "Eau de Cologne",
+      "longevity": "4-6 giờ",
+      "seasonal": ["Xuân", "Hè"],
+      "featured": false,
+      "rating": 4.5,
+      "reviews": 72,
+      "tags": ["Tươi mát", "Năng động", "Mùa hè"]
+    },
+    {
+      "id": 12,
+      "name": "Nước hoa Midnight Oud",
+      "sku": "NH-MDO-50",
+      "description": "Hương thơm sâu lắng với notes trầm hương, da thuộc và gia vị. Phù hợp cho những đêm lãng mạn.",
+      "size": "50ml",
+      "price": "2,950,000",
+      "cost": "2,360,000",
+      "stock": 6,
+      "category": "Nước hoa nam",
+      "subcategory": "Hương gỗ phương đông",
+      "status": "low_stock",
+      "lastUpdated": "10/04/2025",
+      "createdAt": "20/02/2025",
+      "images": [
+        "/images/products/nuoc-hoa-midnight-oud-1.jpg",
+        "/images/products/nuoc-hoa-midnight-oud-2.jpg"
+      ],
+      "brand": "Armani",
+      "fragrance": {
+        "topNotes": ["Tiêu hồng", "Quả lý chua đen"],
+        "middleNotes": ["Trầm hương", "Hoa hồng", "Da thuộc"],
+        "baseNotes": ["Vanilla", "Hổ phách", "Gỗ đàn hương"]
+      },
+      "concentration": "Eau de Parfum",
+      "longevity": "8-10 giờ",
+      "seasonal": ["Thu", "Đông"],
+      "featured": true,
+      "rating": 4.8,
+      "reviews": 110,
+      "tags": ["Sang trọng", "Quyến rũ", "Dạ tiệc"]
+    },
+    {
+      "id": 13,
+      "name": "Nước hoa Floral Symphony",
+      "sku": "NH-FLS-30",
+      "description": "Hương thơm đa dạng các loại hoa với notes hoa nhài, hoa lan và hoa huệ. Nữ tính và tinh tế.",
+      "size": "30ml",
+      "price": "1,350,000",
+      "cost": "1,080,000",
+      "stock": 9,
+      "category": "Nước hoa nữ",
+      "subcategory": "Hương hoa cỏ",
+      "status": "active",
+      "lastUpdated": "08/04/2025",
+      "createdAt": "02/03/2025",
+      "images": [
+        "/images/products/nuoc-hoa-floral-symphony-1.jpg",
+        "/images/products/nuoc-hoa-floral-symphony-2.jpg"
+      ],
+      "brand": "Marc Jacobs",
+      "fragrance": {
+        "topNotes": ["Quả lê", "Cam Bergamot"],
+        "middleNotes": ["Hoa nhài", "Hoa lan", "Hoa huệ"],
+        "baseNotes": ["Xạ hương", "Vanilla", "Gỗ đàn hương"]
+      },
+      "concentration": "Eau de Toilette",
+      "longevity": "4-6 giờ",
+      "seasonal": ["Xuân", "Hè"],
+      "featured": false,
+      "rating": 4.6,
+      "reviews": 85,
+      "tags": ["Nữ tính", "Tinh tế", "Hàng ngày"]
+    },
+    {
+      "id": 14,
+      "name": "Nước hoa Spice Market",
+      "sku": "NH-SPM-100",
+      "description": "Hương thơm đậm đà với notes gia vị và hương gỗ. Lấy cảm hứng từ chợ gia vị phương Đông.",
+      "size": "100ml",
+      "price": "2,750,000",
+      "cost": "2,200,000",
+      "stock": 0,
+      "category": "Nước hoa unisex",
+      "subcategory": "Hương gỗ cay nồng",
+      "status": "out_of_stock",
+      "lastUpdated": "06/04/2025",
+      "createdAt": "15/01/2025",
+      "images": [
+        "/images/products/nuoc-hoa-spice-market-1.jpg",
+        "/images/products/nuoc-hoa-spice-market-2.jpg"
+      ],
+      "brand": "Serge Lutens",
+      "fragrance": {
+        "topNotes": ["Quế", "Đinh hương", "Tiêu đen"],
+        "middleNotes": ["Hoa hồng", "Nhục đậu khấu", "Nghệ tây"],
+        "baseNotes": ["Gỗ đàn hương", "Nhựa cây", "Vanilla"]
+      },
+      "concentration": "Eau de Parfum",
+      "longevity": "8-10 giờ",
+      "seasonal": ["Thu", "Đông"],
+      "featured": false,
+      "rating": 4.7,
+      "reviews": 63,
+      "tags": ["Độc đáo", "Ấm áp", "Phong cách"]
+    },
+    {
+      "id": 15,
+      "name": "Nước hoa Velvet Musk",
+      "sku": "NH-VLM-75",
+      "description": "Hương thơm ấm áp với notes xạ hương trắng, hổ phách và vanilla. Tinh tế và gợi cảm.",
+      "size": "75ml",
+      "price": "2,450,000",
+      "cost": "1,960,000",
+      "stock": 11,
+      "category": "Nước hoa nữ",
+      "subcategory": "Hương phương đông",
+      "status": "active",
+      "lastUpdated": "13/04/2025",
+      "createdAt": "25/02/2025",
+      "images": [
+        "/images/products/nuoc-hoa-velvet-musk-1.jpg",
+        "/images/products/nuoc-hoa-velvet-musk-2.jpg"
+      ],
+      "brand": "Narciso Rodriguez",
+      "fragrance": {
+        "topNotes": ["Cam Bergamot", "Hoa iris"],
+        "middleNotes": ["Xạ hương trắng", "Hoa mẫu đơn"],
+        "baseNotes": ["Hổ phách", "Vanilla", "Gỗ đàn hương"]
+      },
+      "concentration": "Eau de Parfum",
+      "longevity": "8-10 giờ",
+      "seasonal": ["Thu", "Đông"],
+      "featured": true,
+      "rating": 4.8,
+      "reviews": 95,
+      "tags": ["Tinh tế", "Gợi cảm", "Sang trọng"]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Nước hoa nữ",
+      "slug": "nuoc-hoa-nu",
+      "description": "Các dòng nước hoa dành riêng cho phái nữ",
+      "count": 7
+    },
+    {
+      "id": 2,
+      "name": "Nước hoa nam",
+      "slug": "nuoc-hoa-nam", 
+      "description": "Các dòng nước hoa dành riêng cho phái nam",
+      "count": 4
+    },
+    {
+      "id": 3,
+      "name": "Nước hoa unisex",
+      "slug": "nuoc-hoa-unisex",
+      "description": "Các dòng nước hoa phù hợp cho cả nam và nữ",
+      "count": 4
+    }
+  ],
+  "subcategories": [
+    {
+      "id": 1,
+      "name": "Hương hoa cỏ",
+      "slug": "huong-hoa-co",
+      "parentId": 1
+    },
+    {
+      "id": 2,
+      "name": "Hương hoa cỏ phương đông",
+      "slug": "huong-hoa-co-phuong-dong",
+      "parentId": 1
+    },
+    {
+      "id": 3, 
+      "name": "Hương hoa cỏ trái cây",
+      "slug": "huong-hoa-co-trai-cay",
+      "parentId": 1
+    },
+    {
+      "id": 4,
+      "name": "Hương hoa hồng",
+      "slug": "huong-hoa-hong",
+      "parentId": 1
+    },
+    {
+      "id": 5,
+      "name": "Hương phương đông",
+      "slug": "huong-phuong-dong",
+      "parentId": 1
+    },
+    {
+      "id": 6,
+      "name": "Hương gỗ thơm",
+      "slug": "huong-go-thom",
+      "parentId": 2
+    },
+    {
+      "id": 7,
+      "name": "Hương gỗ cay nồng",
+      "slug": "huong-go-cay-nong",
+      "parentId": 2
+    },
+    {
+      "id": 8,
+      "name": "Hương thơm biển",
+      "slug": "huong-thom-bien",
+      "parentId": 2
+    },
+    {
+      "id": 9,
+      "name": "Hương gỗ phương đông",
+      "slug": "huong-go-phuong-dong",
+      "parentId": 2
+    },
+    {
+      "id": 10,
+      "name": "Hương cam quýt",
+      "slug": "huong-cam-quyt",
+      "parentId": 3
+    },
+    {
+      "id": 11,
+      "name": "Hương cam quýt thơm ngát",
+      "slug": "huong-cam-quyt-thom-ngat",
+      "parentId": 3
+    },
+    {
+      "id": 12,
+      "name": "Hương gỗ cay nồng",
+      "slug": "huong-go-cay-nong-unisex",
+      "parentId": 3
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "Chanel",
+      "country": "Pháp",
+      "featured": true,
+      "logo": "/images/brands/chanel.png"
+    },
+    {
+      "id": 2,
+      "name": "Dior",
+      "country": "Pháp",
+      "featured": true,
+      "logo": "/images/brands/dior.png"
+    },
+    {
+      "id": 3,
+      "name": "Gucci",
+      "country": "Ý",
+      "featured": true,
+      "logo": "/images/brands/gucci.png"
+    },
+ ]
