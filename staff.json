@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Nguyễn Văn An",
+    "email": "nguyenvanan@example.com",
+    "phone": "0912345678",
+    "employeeType": "Nhân viên kho",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Trần Thị Bình",
+    "email": "tranthibinh@example.com",
+    "phone": "0923456789",
+    "employeeType": "Nhân viên chiết nước hoa",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Lê Văn Cường",
+    "email": "levancuong@example.com",
+    "phone": "0934567890",
+    "employeeType": "Nhân viên giao hàng",
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "Phạm Thị Duyên",
+    "email": "phamthiduyen@example.com",
+    "phone": "0945678901",
+    "employeeType": "Nhân viên kho",
+    "status": "probation"
+  },
+  {
+    "id": 5,
+    "name": "Hoàng Văn Em",
+    "email": "hoangvanem@example.com",
+    "phone": "0956789012",
+    "employeeType": "Nhân viên giao hàng",
+    "status": "inactive"
+  },
+  {
+    "id": 6,
+    "name": "Vũ Thị Hoa",
+    "email": "vuthihoa@example.com",
+    "phone": "0967890123",
+    "employeeType": "Nhân viên chiết nước hoa",
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "name": "Đặng Văn Khôi",
+    "email": "dangvankhoi@example.com",
+    "phone": "0978901234",
+    "employeeType": "Nhân viên kho",
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "name": "Bùi Thị Lan",
+    "email": "buithilan@example.com",
+    "phone": "0989012345",
+    "employeeType": "Nhân viên chiết nước hoa",
+    "status": "probation"
+  },
+  {
+    "id": 9,
+    "name": "Ngô Văn Minh",
+    "email": "ngovanminh@example.com",
+    "phone": "0990123456",
+    "employeeType": "Nhân viên giao hàng",
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "name": "Đỗ Thị Ngọc",
+    "email": "dothingoc@example.com",
+    "phone": "0901234567",
+    "employeeType": "Nhân viên kho",
+    "status": "inactive"
+  }
+]
