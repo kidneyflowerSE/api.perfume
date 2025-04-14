@@ -1,0 +1,437 @@
+{
+  "summary": {
+    "revenue": {
+      "total": 2456000000,
+      "currency": "VND",
+      "formatted": "2.456.000.000₫",
+      "previousPeriod": 2182000000,
+      "percentageChange": 12.5
+    },
+    "orders": {
+      "total": 1243,
+      "previousPeriod": 1148,
+      "percentageChange": 8.3
+    },
+    "customers": {
+      "new": 845,
+      "previousPeriod": 873,
+      "percentageChange": -3.2
+    },
+    "conversionRate": {
+      "value": 24.5,
+      "previousPeriod": 23.5,
+      "percentageChange": 4.3
+    }
+  },
+  "monthly": {
+    "revenue": [
+      { "month": "T1", "revenue": 198500000, "expenses": 89400000, "profit": 109100000 },
+      { "month": "T2", "revenue": 187000000, "expenses": 76500000, "profit": 110500000 },
+      { "month": "T3", "revenue": 156000000, "expenses": 92800000, "profit": 63200000 },
+      { "month": "T4", "revenue": 201780000, "expenses": 103908000, "profit": 97872000 },
+      { "month": "T5", "revenue": 189890000, "expenses": 84800000, "profit": 105090000 },
+      { "month": "T6", "revenue": 192390000, "expenses": 83800000, "profit": 108590000 },
+      { "month": "T7", "revenue": 203490000, "expenses": 94300000, "profit": 109190000 },
+      { "month": "T8", "revenue": 205490000, "expenses": 93300000, "profit": 112190000 },
+      { "month": "T9", "revenue": 277490000, "expenses": 113800000, "profit": 163690000 },
+      { "month": "T10", "revenue": 246490000, "expenses": 104300000, "profit": 142190000 },
+      { "month": "T11", "revenue": 288490000, "expenses": 124800000, "profit": 163690000 },
+      { "month": "T12", "revenue": 309490000, "expenses": 135800000, "profit": 173690000 }
+    ]
+  },
+  "products": {
+    "categories": {
+      "data": [
+        { "name": "Nước hoa nam", "value": 400, "percentageShare": 30.8 },
+        { "name": "Nước hoa nữ", "value": 330, "percentageShare": 25.4 },
+        { "name": "Nước hoa unisex", "value": 300, "percentageShare": 23.1 },
+        { "name": "Bộ quà tặng", "value": 160, "percentageShare": 12.3 },
+        { "name": "Mẫu thử", "value": 110, "percentageShare": 8.4 }
+      ]
+    },
+    "topSelling": [
+      {
+        "id": "P001",
+        "name": "Chanel Coco Mademoiselle",
+        "category": "Nước hoa nữ",
+        "price": 3200000,
+        "sold": 157,
+        "revenue": 502400000,
+        "imageUrl": "/products/chanel-coco.jpg",
+        "stock": 43
+      },
+      {
+        "id": "P002",
+        "name": "Dior Sauvage EDT",
+        "category": "Nước hoa nam",
+        "price": 2850000,
+        "sold": 142,
+        "revenue": 404700000,
+        "imageUrl": "/products/dior-sauvage.jpg",
+        "stock": 38
+      },
+      {
+        "id": "P003",
+        "name": "Gucci Bloom",
+        "category": "Nước hoa nữ",
+        "price": 2450000,
+        "sold": 134,
+        "revenue": 328300000,
+        "imageUrl": "/products/gucci-bloom.jpg",
+        "stock": 25
+      },
+      {
+        "id": "P004",
+        "name": "Tom Ford Tobacco Vanille",
+        "category": "Nước hoa unisex",
+        "price": 6500000,
+        "sold": 48,
+        "revenue": 312000000,
+        "imageUrl": "/products/tomford-tobacco.jpg",
+        "stock": 12
+      },
+      {
+        "id": "P005",
+        "name": "Versace Eros",
+        "category": "Nước hoa nam",
+        "price": 1950000,
+        "sold": 121,
+        "revenue": 235950000,
+        "imageUrl": "/products/versace-eros.jpg",
+        "stock": 34
+      }
+    ],
+    "brands": {
+      "data": [
+        { "name": "Chanel", "sales": 583200000, "percentageShare": 23.7 },
+        { "name": "Dior", "sales": 501400000, "percentageShare": 20.4 },
+        { "name": "Gucci", "sales": 412500000, "percentageShare": 16.8 },
+        { "name": "Tom Ford", "sales": 376000000, "percentageShare": 15.3 },
+        { "name": "Versace", "sales": 287900000, "percentageShare": 11.7 },
+        { "name": "Others", "sales": 295000000, "percentageShare": 12.1 }
+      ]
+    }
+  },
+  "customers": {
+    "growth": [
+      { "month": "T1", "newUsers": 400, "activeUsers": 1240, "returnRate": 22.5 },
+      { "month": "T2", "newUsers": 300, "activeUsers": 1339, "returnRate": 23.1 },
+      { "month": "T3", "newUsers": 200, "activeUsers": 1180, "returnRate": 24.2 },
+      { "month": "T4", "newUsers": 278, "activeUsers": 1290, "returnRate": 24.8 },
+      { "month": "T5", "newUsers": 189, "activeUsers": 1180, "returnRate": 25.3 },
+      { "month": "T6", "newUsers": 239, "activeUsers": 1280, "returnRate": 23.9 },
+      { "month": "T7", "newUsers": 349, "activeUsers": 1430, "returnRate": 24.1 },
+      { "month": "T8", "newUsers": 549, "activeUsers": 1670, "returnRate": 24.5 },
+      { "month": "T9", "newUsers": 749, "activeUsers": 1880, "returnRate": 25.7 },
+      { "month": "T10", "newUsers": 649, "activeUsers": 1930, "returnRate": 25.9 },
+      { "month": "T11", "newUsers": 849, "activeUsers": 2180, "returnRate": 26.3 },
+      { "month": "T12", "newUsers": 949, "activeUsers": 2380, "returnRate": 27.2 }
+    ],
+    "demographics": {
+      "age": [
+        { "range": "18-24", "percentage": 18 },
+        { "range": "25-34", "percentage": 42 },
+        { "range": "35-44", "percentage": 25 },
+        { "range": "45-54", "percentage": 10 },
+        { "range": "55+", "percentage": 5 }
+      ],
+      "gender": [
+        { "type": "Nam", "percentage": 35 },
+        { "type": "Nữ", "percentage": 63 },
+        { "type": "Khác", "percentage": 2 }
+      ],
+      "location": [
+        { "city": "Hồ Chí Minh", "percentage": 38 },
+        { "city": "Hà Nội", "percentage": 27 },
+        { "city": "Đà Nẵng", "percentage": 12 },
+        { "city": "Cần Thơ", "percentage": 6 },
+        { "city": "Hải Phòng", "percentage": 5 },
+        { "city": "Khác", "percentage": 12 }
+      ]
+    }
+  },
+  "transactions": {
+    "recent": [
+      {
+        "id": "#12487",
+        "customer": "Nguyễn Văn A",
+        "email": "nguyenvana@email.com",
+        "date": "14/04/2025",
+        "amount": 2500000,
+        "formattedAmount": "2.500.000₫",
+        "status": "Hoàn thành",
+        "items": 3
+      },
+      {
+        "id": "#12486",
+        "customer": "Trần Thị B",
+        "email": "tranthib@email.com",
+        "date": "13/04/2025",
+        "amount": 1800000,
+        "formattedAmount": "1.800.000₫",
+        "status": "Đang xử lý",
+        "items": 2
+      },
+      {
+        "id": "#12485",
+        "customer": "Lê Văn C",
+        "email": "levanc@email.com",
+        "date": "12/04/2025",
+        "amount": 3200000,
+        "formattedAmount": "3.200.000₫",
+        "status": "Hoàn thành",
+        "items": 1
+      },
+      {
+        "id": "#12484",
+        "customer": "Phạm Thị D",
+        "email": "phamthid@email.com",
+        "date": "12/04/2025",
+        "amount": 4500000,
+        "formattedAmount": "4.500.000₫",
+        "status": "Hoàn thành",
+        "items": 2
+      },
+      {
+        "id": "#12483",
+        "customer": "Hoàng Văn E",
+        "email": "hoangvane@email.com",
+        "date": "11/04/2025",
+        "amount": 6800000,
+        "formattedAmount": "6.800.000₫",
+        "status": "Đang vận chuyển",
+        "items": 3
+      },
+      {
+        "id": "#12482",
+        "customer": "Vũ Thị F",
+        "email": "vuthif@email.com",
+        "date": "10/04/2025",
+        "amount": 1200000,
+        "formattedAmount": "1.200.000₫",
+        "status": "Hoàn thành",
+        "items": 1
+      },
+      {
+        "id": "#12481",
+        "customer": "Đặng Văn G",
+        "email": "dangvang@email.com",
+        "date": "09/04/2025",
+        "amount": 3600000,
+        "formattedAmount": "3.600.000₫",
+        "status": "Hủy",
+        "items": 4
+      },
+      {
+        "id": "#12480",
+        "customer": "Bùi Thị H",
+        "email": "buithih@email.com",
+        "date": "08/04/2025",
+        "amount": 2100000,
+        "formattedAmount": "2.100.000₫",
+        "status": "Hoàn thành",
+        "items": 2
+      }
+    ],
+    "paymentMethods": [
+      { "method": "Thẻ tín dụng", "percentage": 45 },
+      { "method": "Chuyển khoản", "percentage": 30 },
+      { "method": "Ví điện tử", "percentage": 18 },
+      { "method": "COD", "percentage": 7 }
+    ]
+  },
+  "marketing": {
+    "channels": [
+      { "name": "Social Media", "visitors": 45000, "conversions": 1350, "conversionRate": 3.0, "revenue": 607500000 },
+      { "name": "Search", "visitors": 28000, "conversions": 980, "conversionRate": 3.5, "revenue": 441000000 },
+      { "name": "Direct", "visitors": 15000, "conversions": 525, "conversionRate": 3.5, "revenue": 236250000 },
+      { "name": "Email", "visitors": 12500, "conversions": 500, "conversionRate": 4.0, "revenue": 225000000 },
+      { "name": "Referral", "visitors": 8000, "conversions": 320, "conversionRate": 4.0, "revenue": 144000000 },
+      { "name": "Other", "visitors": 6500, "conversions": 195, "conversionRate": 3.0, "revenue": 87750000 }
+    ],
+    "campaigns": [
+      {
+        "name": "Khuyến mãi Tết 2025",
+        "start": "15/01/2025",
+        "end": "05/02/2025",
+        "impressions": 120000,
+        "clicks": 15000,
+        "ctr": 12.5,
+        "conversions": 750,
+        "conversionRate": 5.0,
+        "spend": 45000000,
+        "revenue": 337500000,
+        "roi": 650
+      },
+      {
+        "name": "Mùa hè rực rỡ",
+        "start": "01/06/2025",
+        "end": "30/06/2025",
+        "impressions": 85000,
+        "clicks": 10200,
+        "ctr": 12.0,
+        "conversions": 510,
+        "conversionRate": 5.0,
+        "spend": 30000000,
+        "revenue": 229500000,
+        "roi": 665
+      },
+      {
+        "name": "Nước hoa mùa lạnh",
+        "start": "15/10/2024",
+        "end": "15/11/2024",
+        "impressions": 75000,
+        "clicks": 8250,
+        "ctr": 11.0,
+        "conversions": 413,
+        "conversionRate": 5.0,
+        "spend": 25000000,
+        "revenue": 185850000,
+        "roi": 643
+      },
+      {
+        "name": "Valentine's Day",
+        "start": "01/02/2025",
+        "end": "14/02/2025",
+        "impressions": 60000,
+        "clicks": 7800,
+        "ctr": 13.0,
+        "conversions": 390,
+        "conversionRate": 5.0,
+        "spend": 20000000,
+        "revenue": 175500000,
+        "roi": 778
+      }
+    ]
+  },
+  "inventory": {
+    "status": {
+      "inStock": 145,
+      "lowStock": 23,
+      "outOfStock": 8
+    },
+    "value": {
+      "total": 1850000000,
+      "formattedTotal": "1.850.000.000₫",
+      "breakdown": [
+        { "category": "Nước hoa nam", "value": 555000000, "percentage": 30 },
+        { "category": "Nước hoa nữ", "value": 592000000, "percentage": 32 },
+        { "category": "Nước hoa unisex", "value": 462500000, "percentage": 25 },
+        { "category": "Bộ quà tặng", "value": 185000000, "percentage": 10 },
+        { "category": "Mẫu thử", "value": 55500000, "percentage": 3 }
+      ]
+    },
+    "lowStockItems": [
+      {
+        "id": "P004",
+        "name": "Tom Ford Tobacco Vanille",
+        "category": "Nước hoa unisex",
+        "stock": 12,
+        "reorderLevel": 15,
+        "supplier": "Luxury Perfumes Co."
+      },
+      {
+        "id": "P012",
+        "name": "Prada L'Homme Intense",
+        "category": "Nước hoa nam",
+        "stock": 8,
+        "reorderLevel": 10,
+        "supplier": "Prada Official"
+      },
+      {
+        "id": "P023",
+        "name": "Yves Saint Laurent Black Opium",
+        "category": "Nước hoa nữ",
+        "stock": 5,
+        "reorderLevel": 12,
+        "supplier": "YSL Beauty"
+      },
+      {
+        "id": "P036",
+        "name": "Jo Malone Wood Sage & Sea Salt",
+        "category": "Nước hoa unisex",
+        "stock": 4,
+        "reorderLevel": 8,
+        "supplier": "Jo Malone London"
+      },
+      {
+        "id": "P048",
+        "name": "Maison Francis Kurkdjian Baccarat Rouge 540",
+        "category": "Nước hoa unisex",
+        "stock": 3,
+        "reorderLevel": 5,
+        "supplier": "MFK Paris"
+      }
+    ]
+  },
+  "seasonalTrends": {
+    "quarterly": [
+      {
+        "quarter": "Q1 2025",
+        "topCategories": [
+          { "name": "Nước hoa nữ", "percentage": 35 },
+          { "name": "Nước hoa nam", "percentage": 32 },
+          { "name": "Bộ quà tặng", "percentage": 18 }
+        ],
+        "topNotes": [
+          { "name": "Hoa hồng", "percentage": 28 },
+          { "name": "Vani", "percentage": 24 },
+          { "name": "Gỗ đàn hương", "percentage": 18 }
+        ]
+      },
+      {
+        "quarter": "Q2 2025",
+        "topCategories": [
+          { "name": "Nước hoa unisex", "percentage": 38 },
+          { "name": "Nước hoa nữ", "percentage": 30 },
+          { "name": "Nước hoa nam", "percentage": 25 }
+        ],
+        "topNotes": [
+          { "name": "Cam bergamot", "percentage": 32 },
+          { "name": "Hoa nhài", "percentage": 26 },
+          { "name": "Quả đào", "percentage": 22 }
+        ]
+      }
+    ],
+    "popular": {
+      "timeOfDay": [
+        { "time": "Sáng", "topChoice": "Citrus & Aromatic", "percentage": 45 },
+        { "time": "Trưa", "topChoice": "Floral & Fresh", "percentage": 38 },
+        { "time": "Chiều", "topChoice": "Woody & Oriental", "percentage": 42 },
+        { "time": "Tối", "topChoice": "Oriental & Gourmand", "percentage": 55 }
+      ],
+      "ageGroups": [
+        { "age": "18-24", "topChoice": "Fresh & Fruity", "percentage": 52 },
+        { "age": "25-34", "topChoice": "Floral & Oriental", "percentage": 48 },
+        { "age": "35-44", "topChoice": "Woody & Spicy", "percentage": 45 },
+        { "age": "45+", "topChoice": "Classic & Oriental", "percentage": 58 }
+      ]
+    }
+  },
+  "reportsAvailable": [
+    {
+      "id": "revenue-analysis",
+      "name": "Phân tích doanh thu",
+      "description": "Báo cáo chi tiết về doanh thu theo sản phẩm, danh mục và kênh bán hàng",
+      "formats": ["PDF", "Excel", "CSV"]
+    },
+    {
+      "id": "customer-insights",
+      "name": "Phân tích khách hàng",
+      "description": "Thông tin chi tiết về khách hàng, hành vi mua sắm và tỷ lệ chuyển đổi",
+      "formats": ["PDF", "Excel", "CSV"]
+    },
+    {
+      "id": "inventory-status",
+      "name": "Báo cáo tồn kho",
+      "description": "Tình trạng tồn kho, sản phẩm cần nhập thêm và dự báo bán hàng",
+      "formats": ["PDF", "Excel"]
+    },
+    {
+      "id": "marketing-performance",
+      "name": "Hiệu quả marketing",
+      "description": "Phân tích chi tiết các chiến dịch marketing và kênh quảng cáo",
+      "formats": ["PDF", "Excel", "CSV"]
+    }
+  ]
+}
