@@ -1,0 +1,613 @@
+{
+  "orders": [
+    {
+      "id": "#ORD-12345",
+      "customer": "Nguyễn Văn A",
+      "email": "nguyenvana@email.com",
+      "phone": "0912345678",
+      "amount": "₫850,000",
+      "rawAmount": 850000,
+      "status": "completed",
+      "date": "12/04/2025",
+      "createdAt": "2025-04-12T15:30:45Z",
+      "items": [
+        {
+          "id": "PRD-001",
+          "name": "Áo thun nam cổ tròn",
+          "quantity": 2,
+          "price": "₫250,000",
+          "rawPrice": 250000,
+          "total": "₫500,000",
+          "image": "https://example.com/products/tshirt-1.jpg"
+        },
+        {
+          "id": "PRD-002",
+          "name": "Quần jean nam slim fit",
+          "quantity": 1,
+          "price": "₫350,000",
+          "rawPrice": 350000,
+          "total": "₫350,000",
+          "image": "https://example.com/products/jeans-1.jpg"
+        }
+      ],
+      "paymentMethod": "COD",
+      "shippingFee": "₫30,000",
+      "discount": "₫30,000",
+      "subtotal": "₫850,000",
+      "address": "123 Đường Lê Lợi, Quận 1, TP.HCM",
+      "notes": "Gọi trước khi giao hàng",
+      "trackingNumber": "VNP123456789"
+    },
+    {
+      "id": "#ORD-12346",
+      "customer": "Trần Thị B",
+      "email": "tranthib@email.com",
+      "phone": "0923456789",
+      "amount": "₫1,200,000",
+      "rawAmount": 1200000,
+      "status": "shipping",
+      "date": "11/04/2025",
+      "createdAt": "2025-04-11T09:15:22Z",
+      "items": [
+        {
+          "id": "PRD-005",
+          "name": "Đầm suông nữ",
+          "quantity": 1,
+          "price": "₫450,000",
+          "rawPrice": 450000,
+          "total": "₫450,000",
+          "image": "https://example.com/products/dress-1.jpg"
+        },
+        {
+          "id": "PRD-008",
+          "name": "Túi xách nữ cao cấp",
+          "quantity": 1,
+          "price": "₫750,000",
+          "rawPrice": 750000,
+          "total": "₫750,000",
+          "image": "https://example.com/products/bag-1.jpg"
+        }
+      ],
+      "paymentMethod": "Banking",
+      "shippingFee": "₫40,000",
+      "discount": "₫40,000",
+      "subtotal": "₫1,200,000",
+      "address": "456 Đường Nguyễn Huệ, Quận 1, TP.HCM",
+      "notes": "",
+      "trackingNumber": "VNP987654321"
+    },
+    {
+      "id": "#ORD-12347",
+      "customer": "Lê Văn C",
+      "email": "levanc@email.com",
+      "phone": "0934567890",
+      "amount": "₫650,000",
+      "rawAmount": 650000,
+      "status": "processing",
+      "date": "10/04/2025",
+      "createdAt": "2025-04-10T18:45:30Z",
+      "items": [
+        {
+          "id": "PRD-012",
+          "name": "Giày thể thao nam",
+          "quantity": 1,
+          "price": "₫650,000",
+          "rawPrice": 650000,
+          "total": "₫650,000",
+          "image": "https://example.com/products/shoes-1.jpg"
+        }
+      ],
+      "paymentMethod": "Momo",
+      "shippingFee": "₫30,000",
+      "discount": "₫30,000",
+      "subtotal": "₫650,000",
+      "address": "789 Đường Phạm Ngũ Lão, Quận 1, TP.HCM",
+      "notes": "Giao hàng giờ hành chính",
+      "trackingNumber": ""
+    },
+    {
+      "id": "#ORD-12348",
+      "customer": "Phạm Thị D",
+      "email": "phamthid@email.com",
+      "phone": "0945678901",
+      "amount": "₫2,500,000",
+      "rawAmount": 2500000,
+      "status": "cancelled",
+      "date": "09/04/2025",
+      "createdAt": "2025-04-09T11:20:15Z",
+      "items": [
+        {
+          "id": "PRD-020",
+          "name": "Laptop gaming",
+          "quantity": 1,
+          "price": "₫2,000,000",
+          "rawPrice": 2000000,
+          "total": "₫2,000,000",
+          "image": "https://example.com/products/laptop-1.jpg"
+        },
+        {
+          "id": "PRD-022",
+          "name": "Chuột gaming",
+          "quantity": 1,
+          "price": "₫350,000",
+          "rawPrice": 350000,
+          "total": "₫350,000",
+          "image": "https://example.com/products/mouse-1.jpg"
+        },
+        {
+          "id": "PRD-023",
+          "name": "Bàn phím cơ",
+          "quantity": 1,
+          "price": "₫450,000",
+          "rawPrice": 450000,
+          "total": "₫450,000",
+          "image": "https://example.com/products/keyboard-1.jpg"
+        }
+      ],
+      "paymentMethod": "Credit Card",
+      "shippingFee": "₫0",
+      "discount": "₫300,000",
+      "subtotal": "₫2,500,000",
+      "address": "101 Đường Đồng Khởi, Quận 1, TP.HCM",
+      "notes": "Khách hủy đơn",
+      "cancelReason": "Khách đã đổi ý",
+      "trackingNumber": ""
+    },
+    {
+      "id": "#ORD-12349",
+      "customer": "Hoàng Văn E",
+      "email": "hoangvane@email.com",
+      "phone": "0956789012",
+      "amount": "₫1,800,000",
+      "rawAmount": 1800000,
+      "status": "pending",
+      "date": "08/04/2025",
+      "createdAt": "2025-04-08T14:52:37Z",
+      "items": [
+        {
+          "id": "PRD-030",
+          "name": "Điện thoại di động",
+          "quantity": 1,
+          "price": "₫1,800,000",
+          "rawPrice": 1800000,
+          "total": "₫1,800,000",
+          "image": "https://example.com/products/phone-1.jpg"
+        }
+      ],
+      "paymentMethod": "Banking",
+      "shippingFee": "₫30,000",
+      "discount": "₫30,000",
+      "subtotal": "₫1,800,000",
+      "address": "202 Đường Hai Bà Trưng, Quận 1, TP.HCM",
+      "notes": "Chờ xác nhận thanh toán",
+      "trackingNumber": ""
+    },
+    {
+      "id": "#ORD-12350",
+      "customer": "Vũ Thị F",
+      "email": "vuthif@email.com",
+      "phone": "0967890123",
+      "amount": "₫920,000",
+      "rawAmount": 920000,
+      "status": "completed",
+      "date": "07/04/2025",
+      "createdAt": "2025-04-07T10:40:53Z",
+      "items": [
+        {
+          "id": "PRD-042",
+          "name": "Váy dự tiệc",
+          "quantity": 1,
+          "price": "₫620,000",
+          "rawPrice": 620000,
+          "total": "₫620,000",
+          "image": "https://example.com/products/dress-2.jpg"
+        },
+        {
+          "id": "PRD-043",
+          "name": "Giày cao gót",
+          "quantity": 1,
+          "price": "₫300,000",
+          "rawPrice": 300000,
+          "total": "₫300,000",
+          "image": "https://example.com/products/heels-1.jpg"
+        }
+      ],
+      "paymentMethod": "COD",
+      "shippingFee": "₫35,000",
+      "discount": "₫35,000",
+      "subtotal": "₫920,000",
+      "address": "303 Đường Nguyễn Du, Quận 1, TP.HCM",
+      "notes": "",
+      "trackingNumber": "VNP456789123"
+    },
+    {
+      "id": "#ORD-12351",
+      "customer": "Đặng Văn G",
+      "email": "dangvang@email.com",
+      "phone": "0978901234",
+      "amount": "₫1,350,000",
+      "rawAmount": 1350000,
+      "status": "shipping",
+      "date": "06/04/2025",
+      "createdAt": "2025-04-06T16:22:18Z",
+      "items": [
+        {
+          "id": "PRD-050",
+          "name": "Bàn làm việc",
+          "quantity": 1,
+          "price": "₫850,000",
+          "rawPrice": 850000,
+          "total": "₫850,000",
+          "image": "https://example.com/products/desk-1.jpg"
+        },
+        {
+          "id": "PRD-051",
+          "name": "Ghế văn phòng",
+          "quantity": 1,
+          "price": "₫500,000",
+          "rawPrice": 500000,
+          "total": "₫500,000",
+          "image": "https://example.com/products/chair-1.jpg"
+        }
+      ],
+      "paymentMethod": "Banking",
+      "shippingFee": "₫50,000",
+      "discount": "₫50,000",
+      "subtotal": "₫1,350,000",
+      "address": "404 Đường Lý Tự Trọng, Quận 1, TP.HCM",
+      "notes": "Giao giờ hành chính",
+      "trackingNumber": "VNP789123456"
+    },
+    {
+      "id": "#ORD-12352",
+      "customer": "Trương Thị H",
+      "email": "truongthih@email.com",
+      "phone": "0989012345",
+      "amount": "₫750,000",
+      "rawAmount": 750000,
+      "status": "completed",
+      "date": "05/04/2025",
+      "createdAt": "2025-04-05T09:10:27Z",
+      "items": [
+        {
+          "id": "PRD-060",
+          "name": "Đồng hồ nữ",
+          "quantity": 1,
+          "price": "₫450,000",
+          "rawPrice": 450000,
+          "total": "₫450,000",
+          "image": "https://example.com/products/watch-1.jpg"
+        },
+        {
+          "id": "PRD-061",
+          "name": "Vòng tay nữ",
+          "quantity": 3,
+          "price": "₫100,000",
+          "rawPrice": 100000,
+          "total": "₫300,000",
+          "image": "https://example.com/products/bracelet-1.jpg"
+        }
+      ],
+      "paymentMethod": "Momo",
+      "shippingFee": "₫30,000",
+      "discount": "₫30,000",
+      "subtotal": "₫750,000",
+      "address": "505 Đường Calmette, Quận 1, TP.HCM",
+      "notes": "",
+      "trackingNumber": "VNP234567891"
+    },
+    {
+      "id": "#ORD-12353",
+      "customer": "Bùi Văn I",
+      "email": "buivani@email.com",
+      "phone": "0990123456",
+      "amount": "₫3,200,000",
+      "rawAmount": 3200000,
+      "status": "processing",
+      "date": "04/04/2025",
+      "createdAt": "2025-04-04T14:35:42Z",
+      "items": [
+        {
+          "id": "PRD-070",
+          "name": "Tủ lạnh mini",
+          "quantity": 1,
+          "price": "₫2,500,000",
+          "rawPrice": 2500000,
+          "total": "₫2,500,000",
+          "image": "https://example.com/products/fridge-1.jpg"
+        },
+        {
+          "id": "PRD-071",
+          "name": "Lò vi sóng",
+          "quantity": 1,
+          "price": "₫700,000",
+          "rawPrice": 700000,
+          "total": "₫700,000",
+          "image": "https://example.com/products/microwave-1.jpg"
+        }
+      ],
+      "paymentMethod": "Credit Card",
+      "shippingFee": "₫0",
+      "discount": "₫0",
+      "subtotal": "₫3,200,000",
+      "address": "606 Đường Nguyễn Công Trứ, Quận 1, TP.HCM",
+      "notes": "Giao hàng cuối tuần",
+      "trackingNumber": ""
+    },
+    {
+      "id": "#ORD-12354",
+      "customer": "Phan Thị K",
+      "email": "phanthik@email.com",
+      "phone": "0901234567",
+      "amount": "₫580,000",
+      "rawAmount": 580000,
+      "status": "cancelled",
+      "date": "03/04/2025",
+      "createdAt": "2025-04-03T11:22:33Z",
+      "items": [
+        {
+          "id": "PRD-080",
+          "name": "Áo khoác nữ",
+          "quantity": 1,
+          "price": "₫580,000",
+          "rawPrice": 580000,
+          "total": "₫580,000",
+          "image": "https://example.com/products/jacket-1.jpg"
+        }
+      ],
+      "paymentMethod": "Banking",
+      "shippingFee": "₫30,000",
+      "discount": "₫30,000",
+      "subtotal": "₫580,000",
+      "address": "707 Đường Bến Nghé, Quận 1, TP.HCM",
+      "notes": "",
+      "cancelReason": "Hết hàng",
+      "trackingNumber": ""
+    },
+    {
+      "id": "#ORD-12355",
+      "customer": "Ngô Văn L",
+      "email": "ngovanl@email.com",
+      "phone": "0912345670",
+      "amount": "₫1,500,000",
+      "rawAmount": 1500000,
+      "status": "pending",
+      "date": "02/04/2025",
+      "createdAt": "2025-04-02T18:17:58Z",
+      "items": [
+        {
+          "id": "PRD-090",
+          "name": "Tai nghe không dây",
+          "quantity": 1,
+          "price": "₫900,000",
+          "rawPrice": 900000,
+          "total": "₫900,000",
+          "image": "https://example.com/products/headphone-1.jpg"
+        },
+        {
+          "id": "PRD-091",
+          "name": "Loa bluetooth",
+          "quantity": 1,
+          "price": "₫600,000",
+          "rawPrice": 600000,
+          "total": "₫600,000",
+          "image": "https://example.com/products/speaker-1.jpg"
+        }
+      ],
+      "paymentMethod": "COD",
+      "shippingFee": "₫35,000",
+      "discount": "₫35,000",
+      "subtotal": "₫1,500,000",
+      "address": "808 Đường Võ Văn Kiệt, Quận 1, TP.HCM",
+      "notes": "Gọi trước khi giao",
+      "trackingNumber": ""
+    },
+    {
+      "id": "#ORD-12356",
+      "customer": "Trịnh Văn M",
+      "email": "trinhvanm@email.com",
+      "phone": "0923456781",
+      "amount": "₫4,200,000",
+      "rawAmount": 4200000,
+      "status": "shipping",
+      "date": "01/04/2025",
+      "createdAt": "2025-04-01T09:45:12Z",
+      "items": [
+        {
+          "id": "PRD-100",
+          "name": "Máy tính bảng",
+          "quantity": 1,
+          "price": "₫4,200,000",
+          "rawPrice": 4200000,
+          "total": "₫4,200,000",
+          "image": "https://example.com/products/tablet-1.jpg"
+        }
+      ],
+      "paymentMethod": "Banking",
+      "shippingFee": "₫0",
+      "discount": "₫0",
+      "subtotal": "₫4,200,000",
+      "address": "909 Đường Điện Biên Phủ, Quận 3, TP.HCM",
+      "notes": "",
+      "trackingNumber": "VNP345678912"
+    },
+    {
+      "id": "#ORD-12357",
+      "customer": "Lý Thị N",
+      "email": "lythin@email.com",
+      "phone": "0934567892",
+      "amount": "₫950,000",
+      "rawAmount": 950000,
+      "status": "completed",
+      "date": "31/03/2025",
+      "createdAt": "2025-03-31T15:25:36Z",
+      "items": [
+        {
+          "id": "PRD-110",
+          "name": "Set mỹ phẩm",
+          "quantity": 1,
+          "price": "₫650,000",
+          "rawPrice": 650000,
+          "total": "₫650,000",
+          "image": "https://example.com/products/cosmetic-1.jpg"
+        },
+        {
+          "id": "PRD-111",
+          "name": "Nước hoa nữ",
+          "quantity": 1,
+          "price": "₫300,000",
+          "rawPrice": 300000,
+          "total": "₫300,000",
+          "image": "https://example.com/products/perfume-1.jpg"
+        }
+      ],
+      "paymentMethod": "Momo",
+      "shippingFee": "₫30,000",
+      "discount": "₫30,000",
+      "subtotal": "₫950,000",
+      "address": "121 Đường Lê Hồng Phong, Quận 5, TP.HCM",
+      "notes": "",
+      "trackingNumber": "VNP456789123"
+    },
+    {
+      "id": "#ORD-12358",
+      "customer": "Dương Văn O",
+      "email": "duongvano@email.com",
+      "phone": "0945678903",
+      "amount": "₫1,700,000",
+      "rawAmount": 1700000,
+      "status": "processing",
+      "date": "30/03/2025",
+      "createdAt": "2025-03-30T12:34:56Z",
+      "items": [
+        {
+          "id": "PRD-120",
+          "name": "Máy ảnh compact",
+          "quantity": 1,
+          "price": "₫1,700,000",
+          "rawPrice": 1700000,
+          "total": "₫1,700,000",
+          "image": "https://example.com/products/camera-1.jpg"
+        }
+      ],
+      "paymentMethod": "Credit Card",
+      "shippingFee": "₫40,000",
+      "discount": "₫40,000",
+      "subtotal": "₫1,700,000",
+      "address": "232 Đường Trần Hưng Đạo, Quận 5, TP.HCM",
+      "notes": "Đóng gói cẩn thận",
+      "trackingNumber": ""
+    },
+    {
+      "id": "#ORD-12359",
+      "customer": "Lương Thị P",
+      "email": "luongthip@email.com",
+      "phone": "0956789014",
+      "amount": "₫680,000",
+      "rawAmount": 680000,
+      "status": "cancelled",
+      "date": "29/03/2025",
+      "createdAt": "2025-03-29T08:25:47Z",
+      "items": [
+        {
+          "id": "PRD-130",
+          "name": "Đồng hồ thông minh",
+          "quantity": 1,
+          "price": "₫680,000",
+          "rawPrice": 680000,
+          "total": "₫680,000",
+          "image": "https://example.com/products/smartwatch-1.jpg"
+        }
+      ],
+      "paymentMethod": "Banking",
+      "shippingFee": "₫30,000",
+      "discount": "₫30,000",
+      "subtotal": "₫680,000",
+      "address": "343 Đường Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+      "notes": "",
+      "cancelReason": "Sản phẩm bị lỗi",
+      "trackingNumber": ""
+    },
+    {
+      "id": "#ORD-12360",
+      "customer": "Hà Văn Q",
+      "email": "havanq@email.com",
+      "phone": "0967890125",
+      "amount": "₫1,250,000",
+      "rawAmount": 1250000,
+      "status": "completed",
+      "date": "28/03/2025",
+      "createdAt": "2025-03-28T14:23:45Z",
+      "items": [
+        {
+          "id": "PRD-140",
+          "name": "Bộ nồi inox",
+          "quantity": 1,
+          "price": "₫850,000",
+          "rawPrice": 850000,
+          "total": "₫850,000",
+          "image": "https://example.com/products/pot-1.jpg"
+        },
+        {
+          "id": "PRD-141",
+          "name": "Chảo chống dính",
+          "quantity": 1,
+          "price": "₫400,000",
+          "rawPrice": 400000,
+          "total": "₫400,000",
+          "image": "https://example.com/products/pan-1.jpg"
+        }
+      ],
+      "paymentMethod": "COD",
+      "shippingFee": "₫35,000",
+      "discount": "₫35,000",
+      "subtotal": "₫1,250,000",
+      "address": "454 Đường Cách Mạng Tháng 8, Quận 3, TP.HCM",
+      "notes": "",
+      "trackingNumber": "VNP567891234"
+    }
+  ],
+  "stats": {
+    "totalOrders": 256,
+    "pendingOrders": 18,
+    "processingOrders": 45,
+    "shippingOrders": 37,
+    "completedOrders": 198,
+    "cancelledOrders": 22,
+    "conversionRate": 78,
+    "totalRevenue": "₫421,500,000",
+    "revenueByDay": [
+      { "date": "08/04/2025", "revenue": 12500000 },
+      { "date": "09/04/2025", "revenue": 15800000 },
+      { "date": "10/04/2025", "revenue": 9300000 },
+      { "date": "11/04/2025", "revenue": 18500000 },
+      { "date": "12/04/2025", "revenue": 14200000 },
+      { "date": "13/04/2025", "revenue": 21400000 },
+      { "date": "14/04/2025", "revenue": 11800000 }
+    ],
+    "topProducts": [
+      { "id": "PRD-001", "name": "Áo thun nam cổ tròn", "sold": 43 },
+      { "id": "PRD-030", "name": "Điện thoại di động", "sold": 28 },
+      { "id": "PRD-005", "name": "Đầm suông nữ", "sold": 25 },
+      { "id": "PRD-012", "name": "Giày thể thao nam", "sold": 22 },
+      { "id": "PRD-060", "name": "Đồng hồ nữ", "sold": 19 }
+    ],
+    "paymentMethods": {
+      "COD": 95,
+      "Banking": 84,
+      "Momo": 42,
+      "CreditCard": 35
+    }
+  },
+  "filters": {
+    "status": ["all", "pending", "processing", "shipping", "completed", "cancelled"],
+    "date": ["all", "today", "yesterday", "week", "month", "custom"],
+    "payment": ["all", "COD", "Banking", "Momo", "Credit Card"]
+  },
+  "pagination": {
+    "total": 256,
+    "perPage": 10,
+    "currentPage": 1,
+    "lastPage": 26
+  }
+}
