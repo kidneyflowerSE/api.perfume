@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Chai nhựa trong",
+    "type": "bottle",
+    "capacity": "500ml",
+    "sku": "BT-500-CLR",
+    "stockQty": 5250,
+    "lastRestock": "05/04/2025",
+    "supplier": "PlasticPro Vietnam",
+    "supplierContact": "contact@plasticpro.vn | 0901234567",
+    "price": "3,800",
+    "status": "in-stock"
+  },
+  {
+    "id": 2,
+    "name": "Chai thủy tinh",
+    "type": "bottle",
+    "capacity": "330ml",
+    "sku": "BG-330-AMB",
+    "stockQty": 3200,
+    "lastRestock": "28/03/2025",
+    "supplier": "GlassTech Co.",
+    "supplierContact": "sales@glasstech.co | 0912345678",
+    "price": "6,500",
+    "status": "in-stock"
+  },
+  {
+    "id": 3,
+    "name": "Chai nhựa xanh",
+    "type": "bottle",
+    "capacity": "1L",
+    "sku": "BT-1000-BLU",
+    "stockQty": 1800,
+    "lastRestock": "10/04/2025",
+    "supplier": "PlasticPro Vietnam",
+    "supplierContact": "contact@plasticpro.vn | 0901234567",
+    "price": "5,200",
+    "status": "in-stock"
+  },
+  {
+    "id": 4,
+    "name": "Nắp nhựa vặn",
+    "type": "cap",
+    "capacity": "Thông dụng",
+    "sku": "CP-STD-BLK",
+    "stockQty": 12000,
+    "lastRestock": "08/04/2025",
+    "supplier": "CapExpert Ltd.",
+    "supplierContact": "info@capexpert.com | 0934567890",
+    "price": "800",
+    "status": "in-stock"
+  },
+  {
+    "id": 5,
+    "name": "Nắp nhôm vặn",
+    "type": "cap",
+    "capacity": "Premium",
+    "sku": "CP-ALU-PRE",
+    "stockQty": 4500,
+    "lastRestock": "02/04/2025",
+    "supplier": "MetalCaps Co.",
+    "supplierContact": "support@metalcaps.co | 0945678901",
+    "price": "1,500",
+    "status": "in-stock"
+  },
+  {
+    "id": 6,
+    "name": "Chai thủy tinh",
+    "type": "bottle",
+    "capacity": "750ml",
+    "sku": "BG-750-CLR",
+    "stockQty": 950,
+    "lastRestock": "20/03/2025",
+    "supplier": "GlassTech Co.",
+    "supplierContact": "sales@glasstech.co | 0912345678",
+    "price": "7,800",
+    "status": "low-stock"
+  }
+]
